@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
   <view class="heart"></view>
+  <text style="font-family:'Helvetica Neue',Helvetica,Arial,'Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',sans-serif">{{weatherData}}</text> 
 </view>

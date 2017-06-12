@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/heart/heart",
     "pages/index/index",
     "pages/map/map",
-    "pages/heart/heart",
     "pages/logs/logs"
   ],
   "window":{
