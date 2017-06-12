@@ -117,14 +117,15 @@ Page({
         userInfo:userInfo
       })
     })
-    this.getPics();
+    // this.getPics();
+    app.getLocation();
   },
   bindtap() {
     console.log('tap');
   },
   getPics() {
     wx.request({
-      url: 'http://gank.io/api/data/福利/10/1', //仅为示例，并非真实的接口地址
+      url: 'https://gank.io/api/data/福利/10/1', //仅为示例，并非真实的接口地址
       data: {},
       header: {
         'content-type': 'application/json'

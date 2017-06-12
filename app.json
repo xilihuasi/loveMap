@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/map/map",
     "pages/index/index",
+    "pages/map/map",
+    "pages/heart/heart",
     "pages/logs/logs"
   ],
   "window":{
@@ -11,13 +12,17 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
-    "position ": "top",
+    "position ": "bottom",
     "selectedColor": "#09bb07",
     "list": [{
       "pagePath": "pages/index/index",
+      "iconPath": "resources/home-o.png",
+      "selectedIconPath": "resources/home.png",
       "text": "首页"
     }, {
       "pagePath": "pages/logs/logs",
+      "iconPath": "resources/log.png",
+      "selectedIconPath": "resources/log-s.png",
       "text": "日志"
     }]
   }
