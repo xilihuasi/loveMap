@@ -19,7 +19,8 @@ Page({
     var success = function(data) { 
     	console.log(data);
         var weatherData = data.currentWeather[0]; 
-        weatherData = '城市：' + weatherData.currentCity + '\n' + 'PM2.5：' + weatherData.pm25 + '\n' +'日期：' + weatherData.date + '\n' + '温度：' + weatherData.temperature + '\n' +'天气：' + weatherData.weatherDesc + '\n' +'风力：' + weatherData.wind + '\n'; 
+        // weatherData = '城市：' + weatherData.currentCity + '\n' + 'PM2.5：' + weatherData.pm25 + '\n' +'日期：' + weatherData.date + '\n' + '温度：' + weatherData.temperature + '\n' +'天气：' + weatherData.weatherDesc + '\n' +'风力：' + weatherData.wind + '\n'; 
+        weatherData = weatherData.currentCity +'　'+ weatherData.pm25 +'　'+ weatherData.temperature +'　'+ weatherData.weatherDesc;
         that.setData({ 
             weatherData: weatherData 
         }); 

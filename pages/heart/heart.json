@@ -1,3 +1,6 @@
-{
-    "navigationBarTitleText": "loveMap"
+{	
+	"backgroundTextStyle":"light",
+	"navigationBarBackgroundColor": "#d8e1dc",
+    "navigationBarTitleText": "loveMap",
+    "navigationBarTextStyle":"white"
 }
