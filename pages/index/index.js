@@ -1,10 +1,14 @@
 //index.js
+var util = require('../../utils/util.js');
+
 //获取应用实例
 var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    meetDay: util.getNumBetweenDays('2005/09/01'),
+    loveDay: util.getNumBetweenDays('2012/07/07')
   },
   //事件处理函数
   bindViewTap: function() {

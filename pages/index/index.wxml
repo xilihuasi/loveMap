@@ -1,5 +1,9 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="card">
+  	<text>今天是相遇的第{{meetDay}}天，在一起的第{{loveDay}}个日子</text>
+  	<text>有你，真好！</text>
+  </view>
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>

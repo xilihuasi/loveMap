@@ -21,3 +21,11 @@
 .usermotto {
   margin-top: 200px;
 }
+.card {
+	position:absolute;
+	top:10rpx;
+}
+.card text{
+	display: block;
+
+}
