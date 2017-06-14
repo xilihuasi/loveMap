@@ -1,6 +1,7 @@
 /**heart.wxss**/
 page{
-	background-color: #d8e1dc;
+	background-color: #41a9cc;
+	/*d8e1dc 41a9cc*/
 }
 .heart{
 	position:absolute;

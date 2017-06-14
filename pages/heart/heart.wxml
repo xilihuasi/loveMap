@@ -1,5 +1,5 @@
 <!--heart.wxml-->
 <view class="container">
-  <view class="heart"></view>
+  <view class="heart" bindtap="bindtap"></view>
 </view>
 <text class="weather">{{weatherData || "载入中···"}}</text>
