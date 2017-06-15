@@ -23,7 +23,8 @@
 }
 .card {
 	position:absolute;
-	top:10rpx;
+	top:160rpx;
+  animation: fadeIn 1s linear;
 }
 .card text{
 	display: block;
