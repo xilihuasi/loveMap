@@ -6,5 +6,6 @@
   	   longitude="{{longitude}}"
   	   include-points="{{includePoints}}"
   	   bindtap="bindtap"
-  	   polyline="{{polyline}}"></map>
+  	   polyline="{{polyline}}"
+  	   bindmarkertap="toDetail"></map>
 </view>

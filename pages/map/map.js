@@ -137,5 +137,11 @@ Page({
         console.log(res);
       }
     })
+  },
+  toDetail(){
+    console.log('222');
+    wx.navigateTo({
+      url: '../mapDetail/mapDetail'
+    })
   }
 })

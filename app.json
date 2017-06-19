@@ -3,6 +3,7 @@
     "pages/heart/heart",
     "pages/index/index",
     "pages/map/map",
+    "pages/mapDetail/mapDetail",
     "pages/logs/logs"
   ],
   "window":{
