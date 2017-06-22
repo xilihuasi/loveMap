@@ -48,7 +48,7 @@ Page({
       },
       {
         iconPath: '/resources/loc.png',
-        id: 1,
+        id: 2,
         latitude: 27.948640,
         longitude: 109.601740,
         width: 50,
@@ -57,7 +57,7 @@ Page({
       },
       {
         iconPath: '/resources/loc.png',
-        id: 1,
+        id: 3,
         latitude: 28.180410,
         longitude: 112.941110,
         width: 50,
@@ -66,7 +66,7 @@ Page({
       },
       {
         iconPath: '/resources/loc.png',
-        id: 1,
+        id: 4,
         latitude: 29.556490,
         longitude: 106.575150,
         width: 50,
@@ -75,7 +75,7 @@ Page({
       },
       {
         iconPath: '/resources/loc.png',
-        id: 1,
+        id: 5,
         latitude: 29.578832,
         longitude: 103.449669,
         width: 50,
@@ -84,7 +84,7 @@ Page({
       },
       {
         iconPath: '/resources/loc.png',
-        id: 1,
+        id: 6,
         latitude: 30.737270,
         longitude: 104.143800,
         width: 50,
@@ -138,10 +138,12 @@ Page({
       }
     })
   },
-  toDetail(){
-    console.log('222');
+  toDetail(m){
+    console.log(this.data.markers);
+    const markers = this.data.markers;
+    const address = markers[m.markerId].title;
     wx.navigateTo({
-      url: '../mapDetail/mapDetail'
+      url: `../mapDetail/mapDetail?address=${address}`
     })
   }
 })
