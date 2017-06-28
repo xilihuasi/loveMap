@@ -7,5 +7,5 @@
   	   include-points="{{includePoints}}"
   	   bindtap="bindtap"
   	   polyline="{{polyline}}"
-  	   bindmarkertap="toDetail"></map>
+  	   bindcallouttap="toDetail"></map>
 </view>
