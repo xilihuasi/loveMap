@@ -8,7 +8,8 @@ Page({
   },
   onLoad() {
     setTimeout( () => {
-        wx.switchTab({
+        // wx.switchTab({
+      wx.navigateTo({
         url: '../index/index'
       });
     },3000);

@@ -34,13 +34,25 @@ text{
 		opacity: 1;
 	}
 }
-@keyframes fadeIn{
+@keyframes fadeInDown{
 	0%{
 		transform:translateY(-160rpx);
 		opacity: .2;
 	}
 	80%{
 		transform:translateY(-5rpx);
+		opacity: .9;
+	}
+	100%{
+		transform:translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes fadeIn{
+	0%{
+		opacity: .2;
+	}
+	80%{
 		opacity: .9;
 	}
 	100%{

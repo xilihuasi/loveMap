@@ -33,11 +33,3 @@ page{
 	transform:rotate(45deg);
 	transform-origin: 100% 100%;
 }
-.weather{
-	position:absolute;
-	bottom:100rpx;
-	width:100%;
-	text-align:center;
-	font-family:'Helvetica Neue',Helvetica,Arial,'Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',sans-serif;
-	color: #fff;
-}

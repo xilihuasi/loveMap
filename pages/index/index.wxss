@@ -1,6 +1,28 @@
 /**index.wxss**/
 @import '/weui.wxss';
 
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 40rpx;
+  animation: fadeIn 2s linear;
+}
+.word-small {
+  font-size: 30rpx;
+}
+.word-day {
+  font-size: 60rpx;
+  margin-right: 10rpx;
+}
+.weather{
+  position:absolute;
+  bottom:100rpx;
+  width:100%;
+  text-align:center;
+  font-family:'Helvetica Neue',Helvetica,Arial,'Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',sans-serif;
+  color: #fff;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -20,13 +42,4 @@
 
 .usermotto {
   margin-top: 200px;
-}
-.card {
-	position:absolute;
-	top:160rpx;
-  animation: fadeIn 1s linear;
-}
-.card text{
-	display: block;
-
 }
